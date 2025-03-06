@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Xiyu Zhou">       
+        <title>Hours</title>
+        <link rel="icon" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/favicon.png?v=2" type="image/png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <script src="./assets/js/app.js" defer></script>
+    </head>
+      <body>
+        <section>
+          <div id="clock">00:00</div>
+          
+          <div id="alarm-status" class="hidden">
+            Alarm set for <span id="alarm-time">00:00</span>
+          </div>
+          
+          <form id="alarm-form">
+            <input type="number" id="alarm-hour" placeholder="HH" min="0" max="23" required>
+            <input type="number" id="alarm-minute" placeholder="MM" min="0" max="59" required>
+            <button type="submit" class="Set">Set alarm</button>
+          </form>
+          
+          <audio id="alarm-audio" src="./assets/media/alarm.mp3" preload="auto"></audio>
+        </section>
+      </body>
+    </html>
+    

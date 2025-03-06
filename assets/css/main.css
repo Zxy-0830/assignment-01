@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body {
+  background-color: #181725;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  width: 255px;
+  text-align: center;
+  color: #fff;
+}
+
+#clock {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#alarm-status {
+  margin-bottom: 20px;
+}
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+form input {
+  width: 70px;
+  height: 44px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  border: none;
+  background-color: #333;
+  color: #fff;
+}
+
+button.Set {
+  width: 120px;
+  height: 44px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #09971c;
+  border: none;
+  cursor: pointer;
+}
+
